@@ -125,7 +125,7 @@ emtPredExp = function(geneExpMat,gseID,fileLoc){
 }
 
 getNCIindices = function(EMTexp,seriesID,outPath){
-  nci60_data = read.table(file = "../../Gene_signatures/MLR/GPL570-55999.txt",sep = '\t',header = T,stringsAsFactors = F, fill = T, quote = "")
+  nci60_data = read.table(file = "../../Gene_signatures/MLR/GPL570-55999.txt.gz",sep = '\t',header = T,stringsAsFactors = F, fill = T, quote = "")
   nci60_indices = match(EMTexp[,1],nci60_data[,11])
   nci60_out = paste(seriesID,"_nci60_use_probe.txt",sep = "")
   nci60_indices_file = paste(outPath,nci60_out,sep = '/')

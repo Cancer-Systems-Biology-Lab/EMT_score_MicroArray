@@ -1,14 +1,15 @@
 # EMT score calculation
 #### This code downloads microarray GEO data for a given GSE ID, preprocesses it to generate gene wise expression and calculates EMT score using methods mentioned in *Byers et al.,2013*, *Tan et al., 2014* and *George et al., 2017*
 
-To run the code successfully you should have all the required R packages installed. 
+To run the code successfully you should have all the required R packages and MATLAB installed. 
 
 
 
-##### Please run the code in R as follows :
- ###### setwd(“./EMT_score_calculation”) (**note: depending upon where you save it in your desktop change the working directory)
- ###### system(paste(“Rscript  ./EMT_GEO.R”, <"GSEID">)) 
+##### Please run the following in a terminal :
 
+```
+Rscript  ./EMT_GEO.R”, <"GSEID"> 
+```
 
 
 If you find this code useful in your research, please cite 
