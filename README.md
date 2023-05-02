@@ -8,7 +8,7 @@ To run the code successfully you should have all the required R packages and MAT
 ##### Please run the following in a terminal :
 
 ```
-Rscript  ./EMT_GEO.R”, <"GSEID"> 
+Rscript  ./EMT_GEO.R <"GSEID"> 
 ```
 
 
